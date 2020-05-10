@@ -20,4 +20,4 @@ Essa aplicação foi desenvolvida com [Python](https://docs.python.org/pt-br/3/i
 
 ## 📝 Observações
 
-- Vídeo explicação da aplicação desenvolvida: [Vídeo](https://youtu.be/a5WrNPOatto)
+- Vídeo explicação da aplicação desenvolvida: [Vídeo](https://youtu.be/73azLp_9q5M)
