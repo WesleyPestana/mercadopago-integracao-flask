@@ -1,0 +1,128 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+/* VARIAVEIS INCIAIS */
+:root {
+	--cor-primaria: #8b5742;
+	--cor-secundaria: #c2c2c2;
+	--cor-branco: #fff;
+	--cor-preto: #000;
+	--font-rootcow-1: 'Shadows Into Light', cursive;
+	--font-rootcow-2: 'Indie Flower', cursive;
+}
+
+h1, h2 {
+	font-family: var(--font-rootcow-2)!important;
+}
+
+/* BOOTSTRAP */
+
+/* BTN */
+.bg-primary{
+	background-color: var(--cor-primaria)!important;
+}
+.btn-primary {
+	color: var(--cor-secundaria)!important;
+	background-color: var(--cor-primaria)!important;
+	border-color: var(--cor-primaria)!important;
+	transition: 0.2s;
+}
+.btn-primary:hover {
+	color: var(--cor-branco)!important;
+	background-color: var(--cor-primaria)!important;
+	border-color: var(--cor-primaria)!important;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary.active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+	box-shadow: none;
+}
+.bg-secundary{
+	background-color: var(--cor-secundaria)!important;
+}
+.btn-secundary {
+	color: var(--cor-primaria)!important;
+	background-color: var(--cor-secundaria)!important;
+	border-color: var(--cor-secundaria)!important;
+	transition: 0.2s;
+}
+.btn-secundary:hover {
+	color: var(--cor-preto)!important;
+	background-color: var(--cor-secundaria)!important;
+	border-color: var(--cor-secundaria)!important;
+}
+.btn-secundary.focus, .btn-secundary:focus, .btn-secundary.active:focus, .btn-secundary:not(:disabled):not(.disabled):active:focus, .show>.btn-secundary.dropdown-toggle:focus {
+	box-shadow: none;
+}
+
+/* TEXT */
+.text-secundary{
+	color: var(--cor-primaria)!important;
+}
+.text-secundary{
+	color: var(--cor-secundaria)!important;
+}
+
+/* NAVBAR FAIXA */
+.navbar-faixa{
+	background-color: var(--cor-primaria)!important;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-faixa .nav-link{
+	padding: 5px;
+	font-size: 14px;
+	color: var(--cor-secundaria)!important;
+}
+.navbar-faixa .nav-link:hover{
+	color: var(--cor-branco)!important;
+}
+
+/* NAVBAR MENU */
+.logo{
+	width: 60px;
+}
+.navbar-menu{
+	background-color: var(--cor-secundaria)!important;
+}
+.navbar-menu .nav-link i{
+	font-size: 20px!important;
+}
+
+/* FORM */
+.form-control:focus {
+	border-color: var(--cor-primaria)!important;
+	box-shadow: none;
+}
+
+/* breadcrumb */
+ol.breadcrumb{
+	background: var(--cor-secundaria)!important;
+}
+ol.breadcrumb .breadcrumb-item a{
+	color: var(--cor-primaria)!important;
+	text-decoration: none;
+}
+ol.breadcrumb .breadcrumb-item a:hover{
+	color: var(--cor-preto)!important;
+}
+
+/* FOOTER */
+.footer{
+	background-color: var(--cor-primaria)!important;
+	padding: 20px;
+}
+.footer p{
+	color: var(--cor-secundaria)!important;
+}
+.footer p a{
+	color: var(--cor-secundaria)!important;
+	text-decoration: none;
+}
+.footer p a:hover{
+	color: var(--cor-branco)!important;
+}
+
+.product {
+  height: 342px;
+}

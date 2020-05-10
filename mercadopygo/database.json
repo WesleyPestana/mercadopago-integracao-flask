@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Suco de Laranja",
+      "description": "Suco de laranja 300ml",
+      "price": 4.99,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Suco de Abacate",
+      "description": "Suco de abacate 300ml",
+      "price": 5.99,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1584587727565-a486d45d58b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Suco de Acerola",
+      "description": "Suco de acerola 300ml",
+      "price": 6.99,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1564758941535-c180dd7eaf8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Suco de Framboesa",
+      "description": "Suco de framboesa 300ml",
+      "price": 7.99,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1582756269830-4bfb452a1667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
+    }
+  ]
+}

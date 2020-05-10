@@ -1,0 +1,40 @@
+{% extends 'index.html' %}
+
+{% block products %}
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 mb-2">
+      <h2>Produtos Naturais</h2>
+    </div>
+
+    {% for product in products %}
+
+    <div class="col-6 col-lg-3 mt-2">
+      <div class="card">
+        <img class="card-img-top product" src="{{ product.image }}" alt="{{ product.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <p class="card-text">{{product.description}}</p>
+          <div class="row">
+            <div class="col-6">
+              <p class="font-weight-bold pt-2">{{ "R$ %.2f"|format(product.price) }}</p>
+            </div>
+            <div class="col-6">
+              <input type="number" min="1" class="form-control" name="valor_produto" value="{{product.quantity}}" readonly>
+            </div>
+            <div class="col-12 mt-1">
+              <a href="/buy/{{ product.id }}" class="btn btn-primary w-100"><i class="fas fa-shopping-cart mr-2"></i>
+                Comprar </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</div>
+
+{% endblock %}
